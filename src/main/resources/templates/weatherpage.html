@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherPage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/images/Background.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .weather-box {
+            background-color: rgba(0, 13, 128, 0.8); /* Purple background with some transparency */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 2, 128, 0.5); /* Purple shadow */
+            width: 80%; /* Set a width */
+            max-width: 500px; /* Maximum width */
+            margin: 0 auto; /* Center the box */
+            color: #fff; /* White text color */
+            border: 2px solid #000680; /* Add a border */
+        }
+        .weather-data {
+            margin-bottom: 20px;
+        }
+        .weather-data:last-child {
+            margin-bottom: 0;
+        }
+        .weather-data-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<span th:if="${displayWarmestWeather.provider == 'MET'}">
+
+<div class="weather-box">
+    <img th:src="@{/images/MET.jpg}" width="250" height="74">
+
+    <div class="weather-data">
+        <div class="weather-data-title">Valid Time:</div>
+        <div th:text="${displayWarmestWeather.validTime}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Temperature:</div>
+        <div th:text="${displayWarmestWeather.temperature}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Humidity:</div>
+        <div th:text="${displayWarmestWeather.humidity}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Provider:</div>
+        <div th:text="${displayWarmestWeather.provider}"></div>
+    </div>
+</div>
+
+</span>
+<span th:if="${displayWarmestWeather.provider == 'SMHI'}">
+    <div class="weather-box">
+    <img th:src="@{/images/SMHI.png}" width="200" height="50">
+
+    <div class="weather-data">
+        <div class="weather-data-title">Valid Time:</div>
+        <div th:text="${displayWarmestWeather.validTime}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Temperature:</div>
+        <div th:text="${displayWarmestWeather.temperature}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Humidity:</div>
+        <div th:text="${displayWarmestWeather.humidity}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Provider:</div>
+        <div th:text="${displayWarmestWeather.provider}"></div>
+    </div>
+</div>
+
+</span>
+<span th:if="${displayWarmestWeather.provider == 'Meteo'}">
+    <div class="weather-box">
+    <img th:src="@{/images/METEO.jpg}" width="150" height="150">
+
+    <div class="weather-data">
+        <div class="weather-data-title">Valid Time:</div>
+        <div th:text="${displayWarmestWeather.validTime}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Temperature:</div>
+        <div th:text="${displayWarmestWeather.temperature}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Humidity:</div>
+        <div th:text="${displayWarmestWeather.humidity}"></div>
+    </div>
+    <div class="weather-data">
+        <div class="weather-data-title">Provider:</div>
+        <div th:text="${displayWarmestWeather.provider}"></div>
+    </div>
+</div>
+
+</span>
+
+
+</body>
+</html>
