@@ -52,8 +52,8 @@ The main goals of this refactoring exercise are:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-### Technologies used
+<!-- TECHNOLOGIES USED -->
+## Technologies used
 * [![Java][Java.com]][Java-url]
 * [![Spring Boot][SpringBoot.com]][SpringBoot-url]
 * [![JSON][JSON.com]][JSON-url]
@@ -74,28 +74,31 @@ To run this project, you need the following software installed:
 * Java Development Kit (JDK) 11 or higher
 * Maven for managing dependencies and building the project
 
-### Installation
+## Installation
 * Clone the repository
 * Build the project using Maven
 * Run the tests to ensure everything is set up correctly
-* To start the game, run the following command: java -jar target/bulls-and-cows-refactoring-1.0-SNAPSHOT.jar
-* Follow the on-screen instructions to play the game
+* To start the game, run the following command: java -jar target/weather-api-1.0-SNAPSHOT.jar
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 ## License
-
 Distributed under the MIT License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
-
 Kerem Bjälvenäs Tazedal - kerem.tazedal.89@gmail.com
 
-Project Link: [https://github.com/Kerem1989/bulls-cows-game-refact](https://github.com/Kerem1989/bulls-cows-game-refact)
+Project Link: [https://github.com/Kerem1989/spring-boot-weather-api](https://github.com/Kerem1989/spring-boot-weather-api)
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+Special thanks to Dmitry Khalizov for his valuable contributions and collaboration throughout the development of this project.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
