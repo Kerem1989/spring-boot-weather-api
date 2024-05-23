@@ -23,15 +23,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/bull.png" alt="Logo" width="712" height="616">
+    <img src="images/logo.png" alt="Logo" width="212" height="162">
   </a>
 
-    
-<div>
-Image by <a href="https://pixabay.com/users/stampf-1703749/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7497107">Stampf</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7497107">Pixabay</a>
-</div>
-
-  <h3 align="center">Bulls and Cows Refactored Version</h3>
+  <h3 align="center">Multi-API Weather Forecast</h3>
 </div>
 
 <!-- ABOUT THE PROJECT -->
@@ -42,8 +37,7 @@ Image by <a href="https://pixabay.com/users/stampf-1703749/?utm_source=link-attr
 This Java project is a comprehensive refactoring exercise focused on the Bulls & Cows guessing game. The primary objective of this exercise is to enhance the code's structure, testability, and maintainability by applying key software engineering principles and best practices.
 
 Project Overview
-Bulls & Cows Game
-Bulls & Cows is a classic code-breaking game where one player thinks of a secret code, and the other player tries to guess it within a certain number of attempts. For each guess, the guesser receives feedback in the form of "bulls" and "cows"—bulls indicating correct digits in the correct position, and cows indicating correct digits in the wrong position.
+This Spring Boot application is designed to integrate multiple weather APIs, providing users with comprehensive and up-to-date weather forecasts. The application leverages the strengths of various weather services to ensure the delivery of accurate and current weather data. As part of a school exam project, this application primarily focuses on providing weather data for a specific city in Sweden.
 
 <div>
     <img src="images/pic.png" alt="Logo" width="512" height="416">
@@ -51,9 +45,9 @@ Bulls & Cows is a classic code-breaking game where one player thinks of a secret
 
 The main goals of this refactoring exercise are:
 
-* Improve Code Structure: Organize the codebase in a way that is logical, modular, and adheres to object-oriented design principles.
-* Enhance Testability: Ensure that the code is easy to test by writing unit tests, using dependency injection, and adhering to SOLID principles.
-* Increase Maintainability: Make the code easier to understand, extend, and modify by following clean code practices and improving documentation.
+* This Spring Boot application is designed to integrate multiple weather APIs, providing users with comprehensive and up-to-date weather forecasts. 
+* The application leverages the strengths of various weather services to ensure the delivery of accurate and current weather data. 
+* As part of a school exam project, this application primarily focuses on providing weather data for a specific city in Sweden.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
