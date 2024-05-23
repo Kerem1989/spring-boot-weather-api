@@ -56,6 +56,8 @@ The main goals of this refactoring exercise are:
 ## Technologies used
 * [![Java][Java.com]][Java-url]
 * [![Spring Boot][SpringBoot.com]][SpringBoot-url]
+* [![HTML][HTML.com]][HTML-url]
+* [![Thymeleaf][Thymeleaf.com]][Thymeleaf-url]
 * [![JSON][JSON.com]][JSON-url]
 * [![Maven][Maven.com]][Maven-url]
 * [![REST API][RestAPI.com]][RestAPI-url]
@@ -132,5 +134,10 @@ Special thanks to Dmitry Khalizov for his valuable contributions and collaborati
 [SpringBoot-url]: https://spring.io/projects/spring-boot
 [RestAPI.com]: https://img.shields.io/badge/REST_API-FF5733?style=for-the-badge&logo=rest&logoColor=white
 [RestAPI-url]: https://restfulapi.net
+[Thymeleaf.com]: https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white
+[Thymeleaf-url]: https://www.thymeleaf.org
+[HTML.com]: https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+
 
 
