@@ -53,9 +53,14 @@ The main goals of this refactoring exercise are:
 
 
 
-### Built With
+### Technologies used
 * [![Java][Java.com]][Java-url]
-* [![MySQL][MySQL.com]][MySQL-url]
+* [![Spring Boot][SpringBoot.com]][SpringBoot-url]
+* [![JSON][JSON.com]][JSON-url]
+* [![Maven][Maven.com]][Maven-url]
+* [![REST API][RestAPI.com]][RestAPI-url]
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,4 +121,13 @@ Project Link: [https://github.com/Kerem1989/bulls-cows-game-refact](https://gith
 [Java-url]: https://www.java.com
 [MySQL.com]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
 [MySQL-url]: https://www.mysql.com
+[JSON.com]: https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white
+[JSON-url]: https://www.json.org
+[Maven.com]: https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white
+[Maven-url]: https://maven.apache.org
+[SpringBoot.com]: https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white
+[SpringBoot-url]: https://spring.io/projects/spring-boot
+[RestAPI.com]: https://img.shields.io/badge/REST_API-FF5733?style=for-the-badge&logo=rest&logoColor=white
+[RestAPI-url]: https://restfulapi.net
+
 
