@@ -23,7 +23,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="images/bull.png" alt="Logo" width="130" height="80">
+    <img src="images/bull.png" alt="Logo" width="712" height="616">
   </a>
 
     
@@ -46,7 +46,7 @@ Bulls & Cows Game
 Bulls & Cows is a classic code-breaking game where one player thinks of a secret code, and the other player tries to guess it within a certain number of attempts. For each guess, the guesser receives feedback in the form of "bulls" and "cows"—bulls indicating correct digits in the correct position, and cows indicating correct digits in the wrong position.
 
 <div>
-    <img src="images/pic.png" alt="Logo" width="327" height="477">
+    <img src="images/pic.png" alt="Logo" width="512" height="416">
   </a>
 
 The main goals of this refactoring exercise are:
