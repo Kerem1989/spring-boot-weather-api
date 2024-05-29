@@ -31,12 +31,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-
-
-This Java project is a comprehensive refactoring exercise focused on the Bulls & Cows guessing game. The primary objective of this exercise is to enhance the code's structure, testability, and maintainability by applying key software engineering principles and best practices.
-
-Project Overview
 This Spring Boot application is designed to integrate multiple weather APIs, providing users with comprehensive and up-to-date weather forecasts. The application leverages the strengths of various weather services to ensure the delivery of accurate and current weather data. As part of a school exam project, this application primarily focuses on providing weather data for a specific city in Sweden.
 
 <div>
