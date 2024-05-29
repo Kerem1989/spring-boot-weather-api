@@ -73,7 +73,6 @@ To run this project, you need the following software installed:
 ## Installation
 * Clone the repository
 * Build the project using Maven
-* Run the tests to ensure everything is set up correctly
 * To start the game, run the following command: java -jar target/weather-api-1.0-SNAPSHOT.jar
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
